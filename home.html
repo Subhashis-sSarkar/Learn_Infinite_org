@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://icons.fontawesome.com/">
+    <script src="record_responce.js"></script>
+</head>
+<body>
+    <header class="header">
+       <section class="flex">
+         <a href="home.html" class="logo"><img src="D:\LMS\images\logo1.png"></a>
+         <form action="search.html"method="post"class="search-form">
+            <input type="text"name="search_box"required placeholder="search courses.."maxlength="50">
+            <button type="Submit">Submit</button>`
+           <div>
+               <h1>voice recognition</h1>
+               <textarea rows="5" cols="50" placeholder="please speak to search..." id="speechtoText"></textarea>
+               <button onclick="voice()">click to speck</button>
+           </div>
+            
+            
+
+         </form><hr>
+
+
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-bars"></div>
+            <div id="user-btn" class="fas fa-bars"></div>
+            <div id="toggle-btn" class="fas fa-bars"></div>
+         </div>
+         <div class="profile">
+            <img src="images/pic-1.jpg" class="image" alt="">
+            <h3 class="name">Subhashis Sarkar</h3>
+            <p class="role">student</p>
+            <a href="profile.html" class="btn">view profile</a>
+            <div class="flex-btn">
+                <a href="login.html" class="option-btn">login</a>
+                <a href="register.html" class="option-btn">Register</a>
+            </div>
+         </div>
+       </section>
+    </header>
+    <div class="side-bar">
+        <div id="close-bar">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="profile">
+            <img src="images/pic-1.jpg" class="image" alt="">
+            <h3 class="name">Subhashis Sarkar</h3>
+            <p class="role">Student</p>
+            <a href="profile.html"class="btn">view profile</a>
+        </div>
+        <nav class="navbar">
+            <a href="home.html"><i class="fas fa-home"></i><span style="color:rgb(58, 42, 165);font-weight:bold">home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span style="color:rgb(58, 42, 165);font-weight:bold">about</span></a>
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i><span style="color:rgb(58, 42, 165);font-weight:bold">courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span style="color:rgb(58, 42, 165);font-weight:bold">teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span style="color:rgb(58, 42, 165);font-weight:bold";>contact us</span></a>
+            <a href="help.html"><i class="fas fa-headset"></i><span style="color:rgb(58, 42, 165);font-weight:bold";>Need Help</span></a>
+        </nav>
+    </div>
+    <section class="home-grid">
+        <h1 class="heading">Quick Options</h1>
+        <div class="box-container">
+            <div class="box">
+                <h3 class="title">Likes and comments</h3>
+                <p class="likes"><b>Total likes:</b><span>25</span></p><br>
+                <a href="#"class="inline-btn"><b>view Likes:</b></a>
+                <p class="Comments"><b>Total comments:</b><span>12</span></p><br>
+                <a href="#" class="inline-btn"><b>view comments</b></a>
+                <p class="Playlists"><b>Saved playlists:</b><span>4</span></p><br>
+                <a href="#" class="inline-btn">view playlists</a>
+
+            </div>
+            <div class="box">
+                <h3 class="title">Top categories</h3>
+                <div class="flex">
+                    <a href="#"><i class="fas fa-code"></i><span style="color:rgb(165, 42, 42);font-weight:bold">development</span></a>
+                    <a href="#"><i class="fas fa-chart-simple"></i><span style="color:rgb(165, 42, 50);font-weight:bold">business</span></a>
+                    <a href="#"><i class="fas fa-pen"></i><span style="color:rgb(165, 42, 42);font-weight:bold">design</span></a>
+                    <a href="#"><i class="fas fa-chart-line"></i><span style="color:rgb(165, 42, 77);font-weight:bold">marketing</span></a>
+                    <a href="#"><i class="fas fa-music"></i><span style="color:rgb(165, 42, 67);font-weight:bold">music</span></a>
+                    <a href="#"><i class="fas fa-camera"></i><span style="color:rgb(165, 42, 46);font-weight:bold">photography</span></a>
+                    <a href="#"><i class="fas fa-cog"></i><span style="color:rgb(165, 42, 52);font-weight:bold">software</span></a>
+                    <a href="#"><i class="fas fa-vial"></i><span style="color:rgb(165, 42, 44);font-weight:bold">science</span></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3 class="title">popular topics</h3>
+                <div class="flex">
+                    <a href="#"><i class="fab fa-html5"></i><span style="color:rgb(165, 42, 42);font-weight:bold">HTML</span></a>
+                    <a href="#"><i class="fab fa-css3"></i><span style="color:rgb(165, 42, 42);font-weight:bold">CSS</span></a>
+                    <a href="#"><i class="fab fa-js"></i><span style="color:rgb(165, 42, 42);font-weight:bold">JS</span></a>
+                    <a href="#"><i class="fab fa-react"></i><span style="color:rgb(165, 42, 42);font-weight:bold">REACT</span></a>
+                    <a href="#"><i class="fab fa-php"></i><span style="color:rgb(165, 42, 42);font-weight:bold">PHP</span></a>
+                    <a href="#"><i class="fab fa-bootstrap"></i><span style="color:rgb(165, 42, 42);font-weight:bold">BOOTSTRAP</span></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3 class="title">become a tutor</h3>
+                <p class="tutor">Learn everything and keep practice and respect your teachers and go ahead .</p>
+                <a href="teachers.html" class="inline-btn">get started</a>
+            </div>
+        </div>
+    </section>
+    <section class="courses">
+        <h1 class="heading">our courses</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="tutor">
+                    <img src="images/pic-2.jpg" alt="">
+                    <div class="info">
+                        <h3>Subhbra Daw</h3>
+                        <span>21-10-2022</span>
+                    </div>
+                </div>
+                <div class="thumb">
+                    <img src="images/thumb-1.png" alt="">
+                    <span>10 videos</span>
+                </div>
+                <h3 class="title">complete HTML tutorial</h3>
+                <s href="playlist.html" class="inline-btn">view playlist</s>
+            </div>
+            <div class="box">
+                <div class="tutor">
+                    <img src="images/pic-3.jpg" alt="">
+                    <div class="info">
+                        <h3>Subhbra Daw</h3>
+                        <span>21-10-2022</span>
+                    </div>
+                </div>
+                <div class="thumb">
+                    <img src="images/thumb-2.png" alt="">
+                    <span>10 videos</span>
+                </div>
+                <h3 class="title">complete CSS tutorial</h3>
+                <s href="playlist.html" class="inline-btn">view playlist</s>
+            </div>
+            <div class="box">
+                <div class="tutor">
+                    <img src="images/pic-4.jpg" alt="">
+                    <div class="info">
+                        <h3>Subhbra Daw</h3>
+                        <span>21-10-2022</span>
+                    </div>
+                </div>
+                <div class="thumb">
+                    <img src="images/thumb-3.png" alt="">
+                    <span>10 videos</span>
+                </div>
+                <h3 class="title">complete JS tutorial</h3>
+                <s href="playlist.html" class="inline-btn">view playlist</s>
+            </div>
+            <div class="box">
+                <div class="tutor">
+                    <img src="images/pic-5.jpg" alt="">
+                    <div class="info">
+                        <h3>Subhbra Daw</h3>
+                        <span>21-10-2022</span>
+                    </div>
+                </div>
+                <div class="thumb">
+                    <img src="images/thumb-4.png" alt="">
+                    <span>10 videos</span>
+                </div>
+                <h3 class="title">complete BOOTSTRAP tutorial</h3>
+                <s href="playlist.html" class="inline-btn">view playlist</s>
+            </div>
+            <div class="box">
+                <div class="tutor">
+                    <img src="images/pic-6.jpg" alt="">
+                    <div class="info">
+                        <h3>Subhbra Daw</h3>
+                        <span>21-10-2022</span>
+                    </div>
+                </div>
+                <div class="thumb">
+                    <img src="images/thumb-5.png" alt="">
+                    <span>10 videos</span>
+                </div>
+                <h3 class="title">complete JQUARY tutorial</h3>
+                <s href="playlist.html" class="inline-btn">view playlist</s>
+            </div>
+            <div class="box">
+                <div class="tutor">
+                    <img src="images/pic-7.jpg" alt="">
+                    <div class="info">
+                        <h3>Subhbra Daw</h3>
+                        <span>21-10-2022</span>
+                    </div>
+                </div>
+                <div class="thumb">
+                    <img src="images/thumb-6.png" alt="">
+                    <span>10 videos</span>
+                </div>
+                <h3 class="title">complete SASS tutorial</h3>
+                <s href="playlist.html" class="inline-btn">view playlist</s>
+            </div>
+        </div>
+        <div class="more-btn">
+            <a href="courses.html" class="inline-btn">view all courses</a>
+        </div>
+    </section>
+    <footer class="footer">
+        &copy;copyright @ 2024 by <span>Mr. Subhashis , Miss Kusum</span>|| All rights reserved!
+    </footer>
+
+    /* voice js */
+    <script>
+         function voice(){
+                var recognition = new webkitSpeechRecognition();
+                recognition.lang = "en-GB";
+                recognition.onresult = function(event){
+                    console.log(event);
+                    document.getElementById("speechtoText").value=event.results[0][0].transcript;
+                }
+                recognition.start();
+            }
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="chat-button" onclick="toggleChat()">Open Chat</button>
+
+<div class="chat-container" id="chat-container">
+  <div class="chat-header">
+    Chat
+    <button style="float: right;" onclick="toggleChat()">Close</button>
+  </div>
+  <div class="chat-messages" id="chat-messages">
+    <!-- Chat messages will be displayed here -->
+  </div>
+  <textarea class="chat-input" placeholder="Type your message..."></textarea>
+</div>
+
+<script>
+  function toggleChat() {
+    var chatContainer = document.getElementById("chat-container");
+    chatContainer.style.display = chatContainer.style.display === "none" ? "block" : "none";
+  }
+</script>
+</body>
+</html>
