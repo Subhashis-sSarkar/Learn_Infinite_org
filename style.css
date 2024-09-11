@@ -9,7 +9,6 @@
    --black:#2c3e50;
    --white:#fff;
    --border:.1rem solid rgba(0,0,0,.2);
-   background-image: url("D:\LMS\lms-bg.png");
 }
 
 *{
@@ -23,7 +22,6 @@
 *::selection{
    background-color: var(--main-color);
    color:#fff;
-   background-image: url("D:\LMS\lms-bg.png");
 }
 
 html{
@@ -55,8 +53,6 @@ body.dark{
    --black:#fff;
    --white:#222;
    --border:.1rem solid rgba(255,255,255,.2);
-   background-image: url("D:\LMS\images\banner45.jpg");
-
 }
 
 body.active{
